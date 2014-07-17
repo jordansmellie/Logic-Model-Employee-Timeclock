@@ -12,5 +12,7 @@ namespace EmployeeTimeclock.Models
         public string Last { get; set; }
 
         public virtual Position PositionID { get; set; }
+
+        public virtual ICollection<Timesheet> Timesheets { get; set; }
     }
 }
