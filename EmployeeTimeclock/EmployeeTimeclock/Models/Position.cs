@@ -7,5 +7,8 @@ namespace EmployeeTimeclock.Models
 {
     public class Position
     {
+        public int PositionID { get; set; }
+        public string PositionTitle { get; set; }
+        public int DepartmentID { get; set; }
     }
 }
