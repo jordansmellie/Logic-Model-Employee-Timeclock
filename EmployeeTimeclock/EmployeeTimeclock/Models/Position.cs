@@ -9,7 +9,6 @@ namespace EmployeeTimeclock.Models
     {
         public int PositionID { get; set; }
         public string PositionTitle { get; set; }
-
-        public virtual Department DepartmentID { get; set; }
+        public string DepartmentName { get; set; }
     }
 }
