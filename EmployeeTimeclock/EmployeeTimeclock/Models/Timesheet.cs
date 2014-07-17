@@ -7,7 +7,7 @@ namespace EmployeeTimeclock.Models
 {
     public class Timesheet
     {
-        public int TimesheetID { get; set; }
+        public int TimesheetId { get; set; }
         public DateTime Date { get; set; }
         public DateTime TimeIn { get; set; }
         public DateTime TimeOut { get; set; }
