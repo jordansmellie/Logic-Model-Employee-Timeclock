@@ -10,6 +10,7 @@ namespace EmployeeTimeclock.Models
         public int EmployeeID { get; set; }
         public string First { get; set; }
         public string Last { get; set; }
-        public int PositionID { get; set; }
+
+        public virtual Position PositionID { get; set; }
     }
 }

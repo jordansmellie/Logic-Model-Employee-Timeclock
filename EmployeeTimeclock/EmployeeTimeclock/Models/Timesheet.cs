@@ -11,7 +11,8 @@ namespace EmployeeTimeclock.Models
         public DateTime Date { get; set; }
         public DateTime TimeIn { get; set; }
         public DateTime TimeOut { get; set; }
-        public int EmployeeID { get; set; }
         public int DailyHours { get; set; }
+        
+        public virtual Employee EmployeeID { get; set; }
     }
 }
